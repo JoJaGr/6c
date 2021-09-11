@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<script>
+    function checkPassword() {
+        var password = document.getElementById("passwordBox");
+        var passwordText = password.value;
+        if(passwordText == "6c rocks"){
+            return true
+        }
+        alert("6c only");
+        return false;
+    }
+</script>
+</head>
+<body>
+   <p>password:</p> <input id="passwordBox" type="password"/>
+   <a href="" onclick="return checkPassword();">enter</a>
+</body>
+</html>
